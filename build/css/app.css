@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212deg, 45%, 89%);
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+  align-items: center;
+  margin: 0 1rem;
+}
+.card__qr-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card__qr-image img {
+  border-radius: 1rem;
+}
+.card__qr-text {
+  text-align: center;
+  margin: 0 1rem;
+  font-weight: 700;
+}
+.card__qr-text p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}/*# sourceMappingURL=app.css.map */
